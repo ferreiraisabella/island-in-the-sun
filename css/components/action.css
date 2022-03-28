@@ -1,28 +1,14 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #00D4E0;
-    border-bottom: 10px solid #20676B;
-    padding: 10px 20px;
-}
-
-nav {
-    text-align: right;
-}
-
-a {
+.action {
     display: inline-flex;
-    align-items: center;
     color: #FFF;
     font-size: 20px;
-    font-family: "Fira Code", sans-serif;
+    align-items: center;
     font-weight: 500; /* set text weight */
     text-decoration: none; /* remove or keep text decorations */
     margin-right: 30px; /* espaçamento do texto */
 }
 
-a::before {
+.action::before {
     content: "";
     background-color: #FF7519;
     width: 10px;
