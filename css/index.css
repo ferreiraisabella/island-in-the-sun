@@ -7,13 +7,6 @@ header {
     padding: 10px 20px;
 }
 
-p {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 50px;
-    color: #FFF;
-    text-shadow: 2px 2px 0 #FF7519;
-}
-
 nav {
     text-align: right;
 }
@@ -35,32 +28,4 @@ a::before {
     width: 10px;
     height: 10px;
     margin-right: 10px;
-}
-
-@keyframes bounce {
-    0%, 20%, 60%, 100% {
-        transform: translateY(0);
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-20px);
-        transform: translateY(-20px);
-    }
-    80% {
-        transform: translateY(-10px);
-        transform: translateY(-20px);
-    }
-}
-
-#button {
-    display: inline-block;
-    background-color: #FF7519;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0 #000; /* x, y, blur, color */
-    margin-right: 0;
-    cursor: none;
-}
-
-#button:hover {
-    animation: bounce 2s;
 }

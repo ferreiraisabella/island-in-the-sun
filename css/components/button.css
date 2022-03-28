@@ -1,0 +1,26 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80% {
+        transform: translateY(-10px);
+        transform: translateY(-20px);
+    }
+}
+
+#button {
+    display: inline-block;
+    background-color: #FF7519;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 #000; /* x, y, blur, color */
+    margin-right: 0;
+}
+
+#button:hover {
+    animation: bounce 2s;
+}

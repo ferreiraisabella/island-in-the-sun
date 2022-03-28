@@ -10,4 +10,13 @@ h2 {
     font-size: 70px;
     color: #FF7519;
     text-shadow: 2px 2px 0 #20676B;
+    text-align: inherit;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    color: #FFF;
+    text-shadow: 2px 2px 0 #FF7519;
+    text-align: inherit;
 }
