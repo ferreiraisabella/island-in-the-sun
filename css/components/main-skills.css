@@ -1,0 +1,26 @@
+.main-skills {
+    display: flex;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px;
+    color: #FFF;
+}
+
+.main-skills .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-skills .icon {
+    margin-right: 25px;
+    max-width: 90px;
+}
+
+.main-skills .title {
+    margin-bottom: 15px;
+}
+
+.main-section.-skills {
+    background-color: #00D4E0;
+    border-bottom: 10px solid #FF7519;
+}

@@ -1,17 +1,17 @@
 .action {
-    display: inline-flex;
-    color: #FFF;
-    font-size: 20px;
-    align-items: center;
-    font-weight: 500; /* set text weight */
-    text-decoration: none; /* remove or keep text decorations */
-    margin-right: 30px; /* espaçamento do texto */
+  display: inline-flex;
+  color: #fff;
+  font-size: 20px;
+  align-items: center;
+  font-weight: 500; /* set text weight */
+  text-decoration: none; /* remove or keep text decorations */
+  margin-right: 30px; /* espaçamento do texto */
 }
 
 .action::before {
-    content: "";
-    background-color: #FF7519;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
+  content: "";
+  background-color: #ff7519;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
 }

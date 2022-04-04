@@ -1,22 +1,20 @@
-.title {
+.main-title {
     font-family: "Bebas Neue", sans-serif;
     font-size: 50px;
     color: #FFF;
     text-shadow: 2px 2px 0 #FF7519;
     text-align: inherit;
-
 }
 
-.title.-subtitle {
-}
+.main-title.-subtitle {}
 
-.title.-second {
+.main-title.-second {
     font-size: 70px;
     color: #FF7519;
     text-shadow: 2px 2px 0 #20676B;;
 }
 
-.title.-third {
+.main-title.-third {
     font-size: 70px;
     text-shadow: none;
     text-align: center;

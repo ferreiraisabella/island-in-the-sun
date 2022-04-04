@@ -1,48 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title> the ultimate stardew vallley pro player </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300;500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/banner.css">
     <link rel="stylesheet" href="css/components/action.css">
-    <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/title.css">
-    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
+    <link rel="stylesheet" href="css/components/main-skills.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/card.project.css">
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
 </head>
 
 <body>
     <header class="header">
-        <h1 class="title">HKY</h1> <!-- first title -->
+        <h1 class="main-title">HKY</h1> <!-- first title -->
         <nav>
             <a class="action" href="#" lang="en"> skills </a>
-            <a class="action" href="#"> projetos </a>
-            <a class="action" href="#"> contatos </a>
-            <a class="action" href="#"> sobre </a>
-            <a class="button" href="#" lang="en"> download cv </a>
+            <a class="action" href="#">projetos</a>
+            <a class="action" href="#">contatos</a>
+            <a class="action" href="#">sobre</a>
+            <a class="main-button" href="#" lang="en">download cv</a>
         </nav>
     </header>
-    
+
     <section class="banner">
         <div class="wrapper">
-            <div class="box">
-                <h1 class="title -second"> Hakyu </h1> <!-- second title -->
-                <h2 class="title -subtitle"> FrontEnd Developer </h2>
+            <div class="main-box">
+                <h1 class="main-title -second">Hakyu</h1> <!-- second title -->
+                <h2 class="main-title -subtitle">FrontEnd Developer</h2>
             </div>
             <div class="navigation">
-                <a class="button" href="#" lang="en"> download cv </a>
-                <a class="button" href="#"> contatos </a>
+                <a class="main-button" href="#" lang="en">download cv</a>
+                <a class="main-button" href="#">contatos</a>
             </div>
         </div>
     </section>
 
-    <section class="section">
-    <h3 class="title -third"> skills </h3>
+    <section class="main-section -skills">
+        <h3 class="main-title -third">skills</h3>
+        <div class="wrapper-skill">
+            <article class="main-skills">
+                <img class="icon" src="/img/ico_html5.png" alt="pixel art html5 logo">
+                <div class="right">
+                    <h3 class="title">html</h3>
+                    <progress class="progress-bar" value="30" max="100">30%</progress>
+                </div>
+            </article>
+            <article class="main-skills">
+                <img class="icon" src="/img/ico_css3.png" alt="pixel art css3 logo">
+                <div class="right">
+                    <h3 class="title">css</h3>
+                    <progress class="progress-bar" value="30" max="100">30%</progress>
+                </div>
+            </article>
+            <article class="main-skills">
+                <img class="icon" src="/img/ico_js.png" alt="pixel art javascript logo">
+                <div class="right">
+                    <h3 class="title">javascript</h3>
+                    <progress class="progress-bar" value="10" max="100">10%</progress>
+                </div>
+            </article>
+            <article class="main-skills">
+                <img class="icon" src="/img/ico_nodejs.png" alt="pixel art nodejs logo">
+                <div class="right">
+                    <h3 class="title">nodejs</h3>
+                    <progress class="progress-bar" value="10" max="100">10%</progress>
+                </div>
+            </article>
+            <article class="main-skills">
+                <img class="icon" src="/img/ico_react.png" alt="pixel art react logo">
+                <div class="right">
+                    <h3 class="title">react</h3>
+                    <progress class="progress-bar" value="10" max="100">10%</progress>
+                </div>
+            </article>
+            <article class="main-skills">
+                <img class="icon" src="/img/ico_restapi.png" alt="pixel art rest api logo">
+                <div class="right">
+                    <h3 class="title">rest api</h3>
+                    <progress class="progress-bar" value="10" max="100">10%</progress>
+                </div>
+            </article>
+        </div>
     </section>
+
+    <section class="main-section -card-project">
+        <h3 class="main-title -third">projetos</h3>
+        <div class="wrapper-card">
+            <figure class="card-project">
+                <a href="https://twitter.com/amoserpunk" target="_blank">
+                    <img src="/img/anothergirl.jpg" alt="anothergirl pixel art">
+                </a>
+                <!--link into the image-->
+            </figure>
+            <figure class="card-project">
+                <img src="/img/kazuha.jpg" alt="kazuha pixel art">
+            </figure>
+            <figure class="card-project">
+                <img src="/img/girl.jpg" alt="girl pixel art">
+            </figure>
+        </div>
+    </section>
+
 </body>
+
 </html>

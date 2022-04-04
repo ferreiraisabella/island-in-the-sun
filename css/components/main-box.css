@@ -1,4 +1,4 @@
-.box {
+.main-box {
     display: inline-block;
     background-color: #00D4E0;
     box-shadow: 10px 10px 0 #20676B;
@@ -7,6 +7,6 @@
     padding: 42px 0;
 }
 
-.box .subtitle {
+.main-box .subtitle {
     margin-bottom: 28px;
 } /* espacamento só no titulo dentro da box */
